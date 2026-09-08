@@ -1,0 +1,30 @@
+{
+  "name": "Laura Barbosa | Nutricionista",
+  "short_name": "Laura Barbosa",
+  "description": "Nutrição sem dietas restritivas, culpa ou sofrimento.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6FAF0",
+  "theme_color": "#1B4326",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicons/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
