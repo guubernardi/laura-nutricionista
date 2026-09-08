@@ -61,11 +61,9 @@
 </template>
 
 <script setup>
-import { LINK_AGENDAMENTO } from '~/helpers/contato'
+import { LINK_AGENDAMENTO, REGISTRO } from '~/helpers/contato'
 
-// provisorios: confirmar registro e numeros com a Laura antes de publicar
-const REGISTRO = 'CRN-3 12345'
-
+// provisorios: confirmar os numeros com a Laura antes de publicar
 const NUMEROS = [
   { prefixo: '+', valor: 500, sufixo: '', rotulo: 'pacientes acompanhadas' },
   { prefixo: '', valor: 7, sufixo: ' anos', rotulo: 'de consultório' },

@@ -28,6 +28,8 @@
         </div>
       </div>
     </div>
+
+    <ElementosOnda direcao="descendo" cor-frente="var(--cor-branco)" cor-atras="var(--cor-verde-suave)" />
   </section>
 </template>
 
@@ -43,7 +45,7 @@ section.cta
   display: flex
   justify-content: center
   width: 100%
-  padding: 150px 40px 150px 40px
+  padding: 150px 40px 200px 40px
   background-color: var(--cor-verde-escuro)
   overflow: hidden
 
@@ -161,7 +163,7 @@ h2
 
 @media screen and (max-width: 1000px)
   section.cta
-    padding: 90px 20px 90px 20px
+    padding: 90px 20px 140px 20px
 
   .marca-fundo
     right: -90px
